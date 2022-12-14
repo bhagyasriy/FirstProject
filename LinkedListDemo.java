@@ -1,6 +1,7 @@
 package com.code;
 
 import java.util.Iterator;
+import java.util.ListIterator;
 import java.util.LinkedList;
 
 public class LinkedListDemo {
@@ -29,6 +30,14 @@ public class LinkedListDemo {
 		{
 			System.out.println(itr.next()+" ");
 		}
+
+		System.out.println("using descending Iterator");
+		ListIterator itr1 =  l1.ListIterator(l1.size());
+		while(itr1.hasPrevious())
+		{
+		System.out.println(itr1.previous())
+		}
+
 	}
 
 }
