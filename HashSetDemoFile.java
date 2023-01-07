@@ -25,7 +25,7 @@ public class HashSetDemo {
 		lhs.add(10);
 		Iterator<E> itr = lhs.iterator();
 		while (itr.hasNext()) {
-			System.out.println(itr.next());
+			System.out.println(itr.next()+ " ");
 		}
 
 	}
